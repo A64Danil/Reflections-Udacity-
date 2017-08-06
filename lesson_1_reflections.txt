@@ -1,0 +1,45 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    Fill in your answer here
+	Если изменение файла привело к появлению бага, значит баг находится в diff части файлов. 
+	Поиски такого бага займут меньше времени, чем полное сканирование кода.
+	If a change of file introduced the bug, so it place in the diff parts of files.
+	Searching of this bug take a less time, then whole scanning of code.
+
+How could having easy access to the entire history of a file make you a more
+efficient programmer in the long term?
+
+    Fill in your answer here
+	If we did mistake and don't know about this, probably, we create the bug. 
+	So, to easy fix it, we just need to see our hustory, find some step and 
+	find the place, where mistake was did.
+	
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+
+    Преимущества в том, что ты сам выбираешь, что именно фиксировать в изменениях.
+	Недостатки - часть изменений может быть потеряна при случайном закрытии программы.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Возможно это связано с тем, что в Гите хранится вся история в локальном виде,
+	и ему нужна вся история изменений каждого из файлов(всех) в точке коммита.
+
+How can you use the commands git log and git diff to view the history of files?
+
+    Лог показывает историю всех коммитов, дифф показывает разницу между двумя.
+
+How might using version control make you more confident to make changes that
+could break something?
+Что, использую вершн контрол, сделает тебя уверенным для внесения изменений,
+которые могут что-то сломать?
+
+    Возможность всё вернуть сделаем меня более уверенным.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    TeamWork Projects
