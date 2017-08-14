@@ -1,0 +1,29 @@
+What happens when you initialize a repository? Why do you need to do it?
+
+	Гит создаёт служебную папку .git и ветку мастер. Нужно набрать git init.
+	
+How is the staging area different from the working directory and the repository? What value do you think it offers?
+
+		В стэйджинг ареа отмечены файлы, готовые к сохранению. В рабочей директории располагаются файоы с текущим
+		состоянием, а в стэйджинг - в фиксированном на момент добавлений. В репозитории содержатся файлы, которые были
+		закоммичены из стэйджинг зоны. 
+		
+How can you use the staging area to make sure you have one commit per logical change?
+
+	Staging area display changed files, so we can see, what we exactly save to stage area,
+	and what we should commit. In that case we always know, what number of files will be 
+	commited and what kind of change it is.
+	
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+	В случаях когда нужно пофиксить баг, но новый коммит еще не готов. Ветки помогают содержать разные версии одних
+	и тех же файлов. Ветвь создаётся, когда мне нужно сделать другой кусок работы.
+	
+How do the diagrams help you visualize the branch structure?
+
+	Диаграмы показывают, какие коммиты кому принадлежать (указывают на родителей). Это позволяет увидеть,
+	какие коммиты связаны в ветки, а какие - нет.
+	
+What is the result of merging two branches together? Why do we represent it in the diagram the way we do?
+
+	Коммит слияния является общим результатом. На диаграме нужно иметь коммит, обьъединяющий две ветки.
