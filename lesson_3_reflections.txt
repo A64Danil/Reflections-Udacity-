@@ -4,3 +4,6 @@ When would you want to use a remote repository rather than keeping all your work
   
 Why might you want to always pull changes manually rather than having Git automatically stay up-to-date with your remote repository?
   If I'll pull changes automaticaly, so when i start my work, i can left my code. I need to pull when i ready to pull. Else i don't need to pull. 
+
+Describe the differences between forks, clones, and branches. When would you use one instead of another?
+  Форк - клон чужой репы на гитхабе. Клон - копирование к себе на локал из ремот. Ветка - альтернативная история коммитов.
