@@ -29,3 +29,5 @@ What is the result of merging two branches together? Why do we represent it in t
 	Коммит слияния является общим результатом. На диаграме нужно иметь коммит, обьъединяющий две ветки.
 
 	test from Wbstom
+
+	second test
