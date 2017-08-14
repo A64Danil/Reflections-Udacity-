@@ -1,0 +1,3 @@
+When would you want to use a remote repository rather than keeping all your work local?
+  I would to use local, when i work form different diveses, like my laptop or my home PC. So I don't need to additional saving, 
+  that's acting direclty.
