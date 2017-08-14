@@ -7,3 +7,7 @@ Why might you want to always pull changes manually rather than having Git automa
 
 Describe the differences between forks, clones, and branches. When would you use one instead of another?
   Форк - клон чужой репы на гитхабе. Клон - копирование к себе на локал из ремот. Ветка - альтернативная история коммитов.
+  
+What is the benefit of having a copy of the last known state of the remote stored locally?
+  Выгода обладания копии последнего известного состояния удаленного сервера, сохраненного локально, в том, что нам не нужно подключаться
+  по интернету, чтобы увидеть разницу между текущим проектом и проектом на сервере, а так же в возможности быстро выполнить diff между этими версиями.
